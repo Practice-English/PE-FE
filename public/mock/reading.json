@@ -1,0 +1,104 @@
+{
+  "id": "reading-general-1",
+  "title": "Reading Exam",
+  "timeAllowedMinutes": 35,
+  "description": "This is a reading exam.",
+  "formDescription": "Detailed description for reading exam.",
+  "instructions": [
+    "The test has five parts.",
+    "You have 35 minutes to complete the test.",
+    "When you click on the 'Start' button, the test will begin."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "cloze",
+      "title": "Question 1 of 5",
+      "prompt": "Read the email from Janice to her friend. Choose one word from the list for each gap. The first one is done for you.",
+      "content": "Hey Ian,\nI was just [[select:0]] if you needed a ride to school tomorrow.\nI saw you waiting for the [[select:1]] at the stop.\nNormally, I [[select:2]] my bike, but now, it is winter.\nSince the weather is getting [[select:3]], my dad drives me.\nWe pass by your house, so we can [[select:4]] you up.\nYou are on the [[select:5]] to school, so it's no problem.\nGillian",
+      "selects": [
+        { "options": ["thinking", "think", "thought"] },
+        { "options": ["bus", "car", "plane"] },
+        { "options": ["ride", "rode", "riding"] },
+        { "options": ["colder", "warm", "sunny"] },
+        { "options": ["pick", "take", "bring"] },
+        { "options": ["way", "road", "street"] }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "order",
+      "title": "Question 2 of 5",
+      "prompt": "Arrange the sentences in the correct order.",
+      "items": [
+        "When you arrive, follow the signs to reception.",
+        "Then give your name and show your ID to the receptionist.",
+        "Then he or she will give you a visitor identity card.",
+        "You must wear it somewhere visible at all times.",
+        "Before you leave, please return the card to reception."
+      ],
+      "slots": 5
+    },
+    {
+      "id": "q3",
+      "type": "order",
+      "title": "Question 3 of 5",
+      "prompt": "Arrange the sentences in the correct order for registration steps.",
+      "items": [
+        "Begin by following the link below this advertisement.",
+        "Click on the button and the registration form will open.",
+        "Fill it in with all your personal details and then click 'Send'.",
+        "It will take you to the home page of our website.",
+        "Once there, you'll see a big blue button saying 'Sign up'."
+      ],
+      "slots": 5
+    },
+    {
+      "id": "q4",
+      "type": "multi-select",
+      "title": "Question 4 of 5",
+      "prompt": "Four people are discussing SPORTS. Read the text and then answer the questions below.",
+      "subQuestions": [
+        {
+          "label": "Which person prefers to be a spectator?",
+          "options": ["A", "B", "C", "D"]
+        },
+        {
+          "label": "Which person underestimated a sport?",
+          "options": ["A", "B", "C", "D"]
+        },
+        {
+          "label": "Which person received a compliment?",
+          "options": ["A", "B", "C", "D"]
+        },
+        {
+          "label": "Which person was misunderstood by the family?",
+          "options": ["A", "B", "C", "D"]
+        },
+        { "label": "Which person set goals?", "options": ["A", "B", "C", "D"] }
+      ],
+      "passage": [
+        "Person A: I am really into sports, and am always up for trying new games...",
+        "Person B: I had just moved to the United States and wanted to make friends...",
+        "Person C: When I was younger, I never wanted to play team sports...",
+        "Person D: Growing up, my brothers used to watch professional basketball matches on TV..."
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "headings",
+      "title": "Question 5 of 5",
+      "prompt": "Read the passage quickly. Choose a heading for each numbered paragraph.",
+      "headings": [
+        "Definition and scope of fake news",
+        "Historical examples of misinformation",
+        "The role of the internet and social media"
+      ],
+      "paragraphs": [
+        "How can we name this phenomenon? While the above headlines do not inherently tell the whole story...",
+        "Spreading falsities in this manner is an age-old problem...",
+        "Despite not being as new as everyone thinks, fake news has been exacerbated due to the Internet and social media..."
+      ]
+    }
+  ]
+}
